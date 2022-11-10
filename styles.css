@@ -84,7 +84,7 @@ li {
 }
 
 section:nth-child(even) {
-  background-color: #f8f8f8;
+  background-color:ghostwhite;
 }
 
 .section__title {
@@ -115,7 +115,7 @@ nav {
 }
 
 .nav__link--anchor-primary {
-  background-color: #8e68d0;
+  background-color: #7149b6;
   padding: 8px 20px;
   border-radius: 50px;
   color: white;
@@ -302,6 +302,7 @@ nav {
 
 .project {
   margin-bottom: 135px;
+  background-color: antiquewhite;
 }
 
 .project:last-child {
@@ -498,5 +499,24 @@ footer {
   .project__description--sub-title {
     text-align: center;
     margin: 12px 0;
+  }
+}
+
+
+.fa-graduation-cap {
+  color: #000;
+  display: inline-block;
+  animation: animate-wave 600ms infinite ease-in-out;
+}
+
+@keyframes animate-wave {
+  0% {
+    transform: rotate(0);
+  }
+  50% {
+    transform: rotate(40deg);
+  }
+  100% {
+    transform: rotate(0);
   }
 }
