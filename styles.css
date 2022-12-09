@@ -84,7 +84,8 @@ li {
 }
 
 section:nth-child(even) {
-  background-color:ghostwhite;
+  background-color: ghostwhite;
+  
 }
 
 .section__title {
@@ -101,7 +102,10 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  
   padding: 0 12px;
+ 
+ 
 }
 
 .nav__link--list {
@@ -111,7 +115,7 @@ nav {
 .nav__link--anchor {
   margin: 0 12px;
   color: #6f1c1c;
-  font-weight: 700;
+  font-weight: 700px;
 }
 
 .nav__link--anchor-primary {
@@ -120,6 +124,7 @@ nav {
   border-radius: 50px;
   color: white;
   transition: all 300ms ease;
+  
 }
 
 .nav__link--anchor-primary:hover {
@@ -127,7 +132,7 @@ nav {
 }
 
 .personal__logo {
-  font-size: 24px;
+  font-size: 34px;
   color: #6030b1;
   margin: 0 12px;
   font-weight: bold
@@ -143,7 +148,7 @@ nav {
 
 .about-me__info {
   display: flex;
-  flex-direction: column;
+  flex-direction:column;
 }
 
 .about-me__info--container {
@@ -241,10 +246,14 @@ nav {
  
  }
 .about-me__link--l{
-  font-size: 22px;
-  color: #fff;
-  background-color: #5d3eff;
-  border: 1px; 
+  font-size: 23px;
+  
+  color:#fff;
+  background-color:#5d3eff;
+  
+  
+  border: 5px; 
+  
   border-radius: 8px;
   
 
@@ -310,12 +319,12 @@ nav {
 .language {
   width: 25%;
   display: flex;
-  justify-content: center;
+  justify-content:center;
   position: relative;
 }
 .language__img--wrapper {
   display: flex;
-  justify-content: center;
+  justify-content:center;
   align-items: center;
   padding: 25px 16px;
 }
@@ -430,7 +439,7 @@ nav {
 
 footer {
   background-color: #242424;
-  background-image: url(IMG17.GIF);
+  background-image: url(coding.GIF);
   background-size: cover;
 }
 
@@ -500,6 +509,7 @@ footer {
     width: calc(100%/3);
     
     
+    
   }
 
   .project__description--para {
@@ -517,6 +527,8 @@ footer {
   .nav__link:not(:last-child) {
     display: none;
   }
+
+  
   
 
   .project__wrapper {
@@ -548,13 +560,16 @@ footer {
     text-align: center;
     margin: 12px 0;
   }
+  
 }
 
 
 .fa-graduation-cap {
-  color: brown;
+  color:black;
   
- 
+
+  
+
   transition: all 300ms;
   animation: float 2000ms infinite alternate-reverse;
  }
