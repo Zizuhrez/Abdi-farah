@@ -613,20 +613,7 @@ footer {
   transition: 0.3s;
 }
 
-.icon li a::before{
-  content: " ";
-  position: absolute;
-  width: 40px;
-  height: 40px;
-  background: #dc2743;
-  right: -5px;
-  bottom: 0;
-  border-radius: 13px;
-  z-index: -1 ;
-  transform-origin: 100% 100%;
-  transform:rotate(10deg) ;
-  transition: 0.3s;
-}
+
 
 .icon li:nth-child(4) a::before {
   background: #25D366;
@@ -638,7 +625,6 @@ footer {
 .icon li:nth-child(2) a::before {
   background: #1da1f2;
 }
-
 
 .icon li ::after{
   content: " ";
@@ -655,6 +641,7 @@ footer {
   z-index: -1;
   transition: 0.3;
 }
+
 ul li a:hover{
   transform: rotate(-15deg);
 }
@@ -665,9 +652,8 @@ ul li a:hover::before{
   color: rgb(162, 113, 113);
 }
 .blue-color{
-  color: #ffffff;
+  color:rgb(98, 98, 159);
 }
 .black-color{
   color: #000;
 }
-
