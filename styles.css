@@ -22,7 +22,7 @@ h1, h2, h3, h4, h5, h6, span {
 
 h1 {
   font-size: 36px;
-  background-image: url(black-red.GIF);
+  background-image: url(colors.GIF);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
